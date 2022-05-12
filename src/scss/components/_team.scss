@@ -1,0 +1,83 @@
+.team-section {
+  background-color: $secondary-bg-color;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.sub-title {
+  color: $title-text-color;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.26;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.specialty {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.card-team {
+  width: 270px;
+
+  background-color: $title-accent-color;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  padding-bottom: 30px;
+}
+
+.card {
+  display: flex;
+}
+
+.card .card-team:not(:last-child) {
+  margin-right: 30px;
+}
+
+.card-icon-box {
+  display: flex;
+  padding-left: 32px;
+  padding-right: 32px;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.card-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+  color: $icon-color;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $title-accent-color;
+    background-color: $accent-color;
+  }
+}
+
+.card-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}

@@ -1,0 +1,88 @@
+footer {
+  background-color: $footer-bg-color;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.adr {
+  color: $title-accent-color;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+
+  margin-top: 20px;
+}
+
+.footer-link {
+  color: $footer-prim-text-color;
+
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  margin-top: 9px;
+}
+
+.adr-footer {
+  margin-top: 9px;
+}
+
+.footer-box {
+  display: flex;
+  position: relative;
+}
+
+.join {
+  margin-left: 70px;
+}
+
+.join-subtitle {
+  color: $title-accent-color;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.join-icon-box {
+  display: flex;
+}
+
+.join-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.join-icon-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.join-icon {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}

@@ -1,3 +1,3 @@
 console.log("File index.js !!!")
-import './scss/common.scss'
+import './scss/main.scss'
 

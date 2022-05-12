@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: $primary-text-color;
+
+  font-family: $main-font-family;
+}
+
+img {
+  display: block;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+button {
+  font-family: inherit;
+}
