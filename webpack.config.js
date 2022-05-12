@@ -23,6 +23,22 @@ module.exports={
             exclude: /node_modules/,
             use:  ["babel-loader"],
           },
+          // 
+          {
+            test: /\.(png|jpg|svg)$/i,
+            exclude: /node_modules/,
+            use: [
+              {
+                loader: 'file-loader',
+                options:{
+                  name:'[path][name].[ext]',
+                  outputPath:'images/',
+                  publicPath:'images/'
+                }
+              },
+            ],
+          },
+          // 
         ],
       },
       plugins: [new HtmlWebpackPlugin({template:'src/index.html'}),

@@ -1,0 +1,61 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.section {
+  padding-top: 94px;
+}
+
+.subtitle {
+  color: $title-text-color;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.features {
+  display: flex;
+}
+
+.features li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: $button-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  margin-top: 10px;
+  margin-bottom: 0;
+}

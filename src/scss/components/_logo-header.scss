@@ -1,0 +1,25 @@
+.logo {
+  color: $accent-color;
+
+  font-family: $sec-font-femily;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 93px;
+}
+
+.logo-text-primary {
+  color: $title-text-color;
+}
+
+.logo-text-secondary {
+  color: $title-accent-color;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
